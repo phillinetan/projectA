@@ -1,4 +1,5 @@
 body{
+
 	background: url("old_map.png") repeat;
 	font-family: "Pacifico";
 	text-align: center;
@@ -13,7 +14,7 @@ body{
 .order{
 	color:rgb(100,30,20);
 	position:fixed;	
-	font-size: 30px
+	font-size: 30px;
 
 }
 .order li{
@@ -53,6 +54,7 @@ body{
 	background:#bfe1f4;
 	border-radius:15px; 
 	font-size: 26px;
+	z-index: -1;
 }
 .center div:hover{
 	height:520px;
@@ -92,8 +94,8 @@ body{
 .center li{
 	padding-top: 50px;
 }
-@media(max-width: 960px){
+@media(max-width: 1000px){
 	.cake, .center, .top{
-		width: 360px;
+		width: 100%;
 	}
 }
