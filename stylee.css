@@ -1,0 +1,101 @@
+body{
+
+	background: url("old_map.png") repeat;
+	font-family: "Pacifico";
+	text-align: center;
+	margin-top: 15px;
+	vertical-align: center;
+}
+.top img{
+	border-radius: 25px;
+	height: 400px;
+	width: 350px;	
+}
+.order{
+	color:rgb(100,30,20);
+	position:fixed;	
+	font-size: 30px;
+
+}
+.order li{
+	font-size: 28px;
+	font-family: "Averia Sans Libre";
+}
+
+
+.order img{
+	width: 50px;
+	height:50px;
+	border-radius: 50px;
+	
+}
+
+.cake img{
+	border-radius: 15px;
+	width: 250px;
+	height: 300px;
+
+}
+.cake img:hover{
+	width:300px;
+	height: 350px;
+	z-index=2;
+}
+.cakes table{
+	position:absolute;
+	text-align: center;
+	vertical-align: center;
+}
+.cake{
+	margin:200px;
+	margin-bottom:20px; 
+	margin-top: 55px;
+	position: absolute;
+	background:#bfe1f4;
+	border-radius:15px; 
+	font-size: 26px;
+	z-index: -1;
+}
+.center div:hover{
+	height:520px;
+	font-size: 30px;
+
+}
+
+.center div{
+	width:400px;
+	height:470px;
+	background: rgb(249,86,129);
+	border-radius: 25px;
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+	font-size: 40px;
+	padding:0px; 
+	-webkit-transition:height 1s;
+	transition:height 1s;
+}
+
+.center td{
+	width:900px;
+}
+.center img{
+	margin-top: 0px;
+	width:270px;
+	height:300px;
+}
+.center li, p{
+	font-family: "Averia Sans Libre";
+	font-size: 26px;
+	margin-right:50px;
+	text-align: center;
+	
+}
+.center li{
+	padding-top: 50px;
+}
+@media(max-width: 960px){
+	.cake, .oven, .center, .top{
+		width: 360px;
+	}
+}
