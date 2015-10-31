@@ -94,8 +94,8 @@ body{
 .center li{
 	padding-top: 50px;
 }
-@media(max-width: 1000px){
+@media(max-width: 960px){
 	.cake, .center, .top{
-		width: 100%;
+		width: 360px;
 	}
 }
