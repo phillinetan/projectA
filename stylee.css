@@ -6,6 +6,9 @@ body{
 	margin:auto;
 	vertical-align: center;
 }
+.top img{
+	border-radius: 25px;
+}
 .order{
 	position:fixed;
 	width: 200px;
@@ -36,16 +39,14 @@ body{
 	text-align: center;
 	vertical-align: center;
 }
-.top img{
-	border-radius: 25px;
-}
+
 .cakes{
 	height:500px
 	width:500px; 
 	background:#bfe1f4;
 	border-radius:25px; 
 }
-.bottom{
+.center{
 	width:265px;
 	margin: auto;
 	background: rgb(249,86,129);
@@ -53,13 +54,13 @@ body{
 	padding:40px;
 	text-align: center;
 }
-.bottom li{
+.center li{
 	font-family: "Averia Sans Libre";
 	font-size: 20px;
 	margin-right:50px;
 }
 @media(max-width: 960px){
-	.cakes, .bottom, .top, .order{
+	.cakes, .center, .top, .order{
 		width: 360px;
 	}
 }
