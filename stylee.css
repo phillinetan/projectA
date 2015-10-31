@@ -96,6 +96,6 @@ body{
 }
 @media(max-width: 960px){
 	.cake, .center, .top{
-		width: 360px;
+		width: 500px;
 	}
 }
