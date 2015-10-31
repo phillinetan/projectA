@@ -1,5 +1,5 @@
 body{
-	background: url("pink_rice.png") repeat;
+	background: url("old_map.png") repeat;
 	margin: 0px;
 	font-family: "Pacifico";
 	text-align: center;
@@ -29,6 +29,7 @@ body{
 	border-radius: 15px;
 	width: 250px;
 	height: 300px;
+
 }
 .cakes table{
 	margin: auto;
