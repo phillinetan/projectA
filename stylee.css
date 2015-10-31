@@ -1,0 +1,64 @@
+body{
+	background: url("pink_rice.png") repeat;
+	margin: 0px;
+	font-family: "Pacifico";
+	text-align: center;
+	margin:auto;
+	vertical-align: center;
+}
+.order{
+	position:fixed;
+	width: 200px;
+	height: 100px;
+	margin: auto;
+	border-radius: 15px;
+
+}
+.order li{
+	font-size: 20px;
+}
+
+
+.order img{
+	width: 50px;
+	height:50px;
+	border-radius: 50px;
+	margin-top: 10px;
+}
+.cakes img{
+	border-radius: 15px;
+	width: 250px;
+	height: 300px;
+}
+.cakes table{
+	margin: auto;
+	text-align: center;
+	vertical-align: center;
+}
+.top img{
+	border-radius: 25px;
+}
+.cakes{
+	height:500px
+	width:500px; 
+	background:#bfe1f4;
+	border-radius:25px; 
+}
+.bottom{
+	width:265px;
+	margin: auto;
+	background: rgb(249,86,129);
+	border-radius: 25px;
+	padding:40px;
+	text-align: center;
+}
+.bottom li{
+	font-family: "Averia Sans Libre";
+	font-size: 20px;
+	margin-right:50px;
+}
+@media(max-width: 960px){
+	.cakes, .bottom, .top, .order{
+		width: 360px;
+	}
+}
