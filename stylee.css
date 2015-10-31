@@ -94,8 +94,14 @@ body{
 .center li{
 	padding-top: 50px;
 }
+<<<<<<< HEAD
 @media(max-width: 560px){
 	.cake, .center, .top, .order{
 		width: 300px;
+=======
+@media(max-width: 960px){
+	.cake, .center, .top{
+		width: 360px;
+>>>>>>> a7e40844b641620121830f808294304fb32a658f
 	}
 }
