@@ -94,8 +94,16 @@ body{
 .center li{
 	padding-top: 50px;
 }
+<<<<<<< HEAD
 @media(max-width: 960px){
 	.cake, .oven, .center, .top{
 		width: 360px;
+=======
+
+
+@media(max-width:960px){
+	.cake, .top, .bottom,.oven{
+		width:360px;
+>>>>>>> b8431ff9ba854461869cba52e31a2c46416757fb
 	}
 }
